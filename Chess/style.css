@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.chess-board {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.chess-board td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.chess-board .white {
+    background: #fff;
+}
+
+.chess-board .black {
+    background: #999;
+}
+
+.labels {
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+}
